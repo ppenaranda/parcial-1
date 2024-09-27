@@ -1,43 +1,43 @@
 .robot-list {
-    position: relative; /* Cambié a relative para que los elementos se posicionen en relación a este contenedor */
+    position: relative; 
     width: 786px;
-    margin: 0 auto; /* Centrar el contenedor */
+    margin: 0 auto; 
     background: #333A40;
   }
   
   .table-header, .table-row {
-    position: relative; /* Cambié a relative para que los elementos se posicionen en relación a este contenedor */
+    position: relative; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 49.73px;
-    padding: 0 10px; /* Espaciado horizontal */
+    padding: 0 10px;
     background: #333A40;
     color: #FFFFFF;
-    font-family: 'Inter', sans-serif; /* Usar sans-serif como respaldo */
+    font-family: 'Inter', sans-serif; 
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
   }
   
   .table-row {
-    background: #FFFFFF; /* Cambié el color de fondo a blanco para las filas */
-    color: #000000; /* Color de texto negro para las filas */
+    background: #FFFFFF; 
+    color: #000000; 
   }
   
   .table-row:hover {
-    background: rgba(0, 0, 0, 0.1); /* Efecto hover */
+    background: rgba(0, 0, 0, 0.1);
   }
   
   .table-cell {
-    width: auto; /* Permitir que las celdas se ajusten */
-    padding: 10px; /* Espaciado interno */
+    width: auto; 
+    padding: 10px;
   }
   
   .table-line {
     width: 787px;
-    height: 1px; /* Espesor de la línea */
+    height: 1px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    margin: 0 auto; /* Centrar la línea */
+    margin: 0 auto;
   }
   

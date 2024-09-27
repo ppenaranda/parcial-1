@@ -11,12 +11,12 @@ const RobotDetail = ({ robots }) => {
 
   return (
     <div className="robot-detail">
-      <h2>{robot.nombre}</h2> {/* Cambiamos name a nombre */}
-      <img src={robot.imagen} alt={robot.nombre} style={{ width: '300px', height: 'auto' }} /> {/* Cambiamos imageUrl a imagen */}
-      <p>Año de Fabricación: {robot.añoFabricacion}</p> {/* Cambiamos year a añoFabricacion */}
-      <p>Capacidad de Procesamiento: {robot.capacidadProcesamiento}</p> {/* Cambiamos processingCapacity a capacidadProcesamiento */}
-      <p>Humor: {robot.humor}</p> {/* Añadimos la propiedad de humor */}
-      <p>Características Adicionales: {robot.additionalFeatures || "No disponibles"}</p> {/* Esto dependerá de la estructura del backend */}
+      <h2>{robot.nombre}</h2> 
+      <img src={robot.imagen} alt={robot.nombre} style={{ width: '300px', height: 'auto' }} /> 
+      <p>Año de Fabricación: {robot.añoFabricacion}</p> 
+      <p>Capacidad de Procesamiento: {robot.capacidadProcesamiento}</p> 
+      <p>Humor: {robot.humor}</p> 
+      <p>Características Adicionales: {robot.additionalFeatures || "No disponibles"}</p> 
     </div>
   );
 };
